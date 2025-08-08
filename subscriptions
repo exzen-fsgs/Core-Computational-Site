@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Core Computational Subscriptions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1F2937;
+      --accent: #3B82F6;
+      --bg: #F9FAFB;
+      --text: #111827;
+      --card-bg: #FFFFFF;
+      --border: #E5E7EB;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .intro h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .intro p {
+      font-size: 1rem;
+      color: #4B5563;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+
+    .card p {
+      margin: 0.5rem 0 0;
+      color: #374151;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      background-color: var(--accent);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta a:hover {
+      background-color: #2563EB;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.875rem;
+      color: #6B7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Core Computational Subscriptions</h1>
+  </header>
+
+  <div class="container">
+    <section class="intro">
+      <h2>Launch Your Own Subscription Portal</h2>
+      <p>Let Core Computational build a branded, scalable subscription system tailored to your service. Whether you're offering digital content, software access, or exclusive perks—we'll help you deliver it seamlessly.</p>
+    </section>
+
+    <section class="card">
+      <h3>Modular Portal Design</h3>
+      <p>Choose from flexible layouts, tiered pricing models, and custom branding options. We’ll build your portal to match your identity and user experience goals.</p>
+    </section>
+
+    <section class="card">
+      <h3>Secure Payment Integration</h3>
+      <p>We support Stripe, PayPal, and other trusted platforms to ensure smooth, secure transactions for your subscribers.</p>
+    </section>
+
+    <section class="card">
+      <h3>Client Dashboard & Analytics</h3>
+      <p>Track subscriber growth, revenue, and engagement with a clean, intuitive dashboard built into your portal.</p>
+    </section>
+
+    <div class="cta">
+      <a href="/contact">Request Your Portal</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Core Computational. All rights reserved.
+  </footer>
+</body>
+</html>
