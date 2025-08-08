@@ -100,6 +100,71 @@
       font-size: 0.875rem;
       color: #6B7280;
     }
+.steps {
+  background-color: #FFFFFF;
+  border-top: 1px solid #E5E7EB;
+  padding: 3rem 1rem;
+}
+
+.steps-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.steps-header h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: #1F2937;
+}
+
+.steps-header p {
+  color: #6B7280;
+  font-size: 1rem;
+}
+
+.step-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.step-number {
+  background-color: #3B82F6;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.step-content h3 {
+  margin: 0;
+  font-size: 1.125rem;
+  color: #1F2937;
+}
+
+.step-content p {
+  margin: 0.5rem 0 0;
+  color: #4B5563;
+  font-size: 0.95rem;
+}
   </style>
 </head>
 <body>
@@ -127,6 +192,43 @@
       <h3>Client Dashboard & Analytics</h3>
       <p>Track subscriber growth, revenue, and engagement with a clean, intuitive dashboard built into your portal.</p>
     </section>
+
+<section class="steps">
+  <div class="steps-header">
+    <h2>How It Works</h2>
+    <p>From concept to launch, we make it simple to get your subscription portal up and running.</p>
+  </div>
+  <div class="step-list">
+    <div class="step">
+      <div class="step-number">1</div>
+      <div class="step-content">
+        <h3>Submit Your Request</h3>
+        <p>Fill out our intake form with your service details, branding preferences, and subscription goals.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-number">2</div>
+      <div class="step-content">
+        <h3>Receive a Custom Quote</h3>
+        <p>We’ll scope your portal, recommend modular add-ons, and send a clear, itemized quote.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-number">3</div>
+      <div class="step-content">
+        <h3>Portal Development</h3>
+        <p>Our team builds your portal with secure payment integration, branded UI, and client dashboard features.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-number">4</div>
+      <div class="step-content">
+        <h3>Launch & Support</h3>
+        <p>We deploy your portal and provide ongoing support, updates, and analytics insights as needed.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
     <div class="cta">
       <a href="/contact">Request Your Portal</a>
